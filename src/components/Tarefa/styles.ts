@@ -16,6 +16,9 @@ export const Tag = styled.span`
   color: #fff;
   font-size: 10px;
   font-weight: bold;
+  background-color: #173396;
+  margin-right: 15px;
+  border-radius: 6px;
 `
 
 export const Descricao = styled.textarea`
@@ -23,6 +26,7 @@ export const Descricao = styled.textarea`
   font-size: 14px;
   line-weight: 24px;
   font-family: 'Roboto Mono', monospace;
+  width: 100%;
 `
 
 export const BarraAcoes = styled.div`
